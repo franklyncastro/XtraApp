@@ -1,0 +1,161 @@
+.container{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    background: white;
+    border-radius: 15px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+   
+   .shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   }
+   
+.nameApp{
+    color: rgb(153, 207, 22);
+    text-shadow: 1px 1px 2px rgb(153, 207, 22);
+    font-size: 2.5rem;
+}
+
+/* inputs */
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.input[type = "number"] {
+    display: block;
+    color: rgb(34, 34, 34);
+    background: linear-gradient(142.99deg, rgb(255, 250, 250) 15.53%, rgb(255, 255, 255) 88.19%);
+    box-shadow: 0px 12px 24px -1px rgb(236, 234, 234);
+    border-color: rgba(7, 4, 14, 0.037);
+    border-radius: 5px;
+    block-size: 20px;
+    margin: 7px auto;
+    padding: 18px 15px;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    transition: 0.5s;
+    font-size: 1rem;
+}
+  
+  .input[type = "number"]:hover {
+    width: 240px;
+  }
+  
+  /* .input[type = "number"]:focus {
+    width: 250px;
+  } */
+
+  /* Boton */
+  .btn {
+    padding: 1.3em 3em;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(153, 207, 22);
+    box-shadow: 0px 15px 20px rgba(46, 229, 61, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    border-radius: 45px;
+  }
+  
+  .btn:active {
+    transform: translateY(-1px);
+  }
+
+
+  /* Reset Button*/
+
+
+  .reset {
+    padding: 1.3em 3em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: 800;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .reset:hover {
+    background-color: rgb(153, 207, 22);
+    box-shadow: 0px 15px 20px rgba(46, 229, 61, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .reset:active {
+    transform: translateY(-1px);
+    background-color: rgb(103, 14, 212);
+  }
+  
+  
+
+  .container_vista{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+  
+  .section_vista{
+    display: flex;
+    margin-top: 25px;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vista_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+  }

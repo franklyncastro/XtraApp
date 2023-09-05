@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One|Ubuntu");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    font-family: 'Ubuntu', sans-serif;    
+ }
+
