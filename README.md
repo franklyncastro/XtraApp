@@ -1,8 +1,12 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Applicacion Web para calculo de horas extras en base al salario
 
-Currently, two official plugins are available:
+Versión Web
+![image](https://github.com/franklyncastro/XtraApp/assets/92040611/8fde6102-9224-4fe0-bd83-68d6d6d551a5)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Versión móvil
+![image](https://github.com/franklyncastro/XtraApp/assets/92040611/0d973970-a604-453f-a445-2877d07b3b4c)
+
+By: Franklyn Y. Castro
