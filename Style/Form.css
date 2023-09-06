@@ -168,11 +168,12 @@
  
   @media (max-width: 345px) {
    .card{
-    width: 330px;
+    width: 320px;
    }
 
    .titulo{
-    font-size: 28px;
+    font-size: 25px;
+    text-align: center;
    }
 }
 
