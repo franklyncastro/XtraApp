@@ -43,7 +43,7 @@ const Form = () => {
 
   return (
     <div className="container">
-      <h1 className="titulo">Cálculo de Horas Extra</h1>
+      <h1 className="titulo">Cálculo de Horas</h1>
 
       <div className="inputs card shadow">
         <h2 className="nameApp">XtraApp</h2>
