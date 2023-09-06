@@ -166,25 +166,18 @@
 
 
  
+  @media (max-width: 345px) {
+   .card{
+    width: 330px;
+   }
 
-  @media (max-width: 450px) {
-    .container{
-       /* padding-right: 30px; */
-    }
+   .titulo{
+    font-size: 28px;
+   }
 }
 
-@media (max-width: 400px) {
-
-  .titulo{
-    font-size: 25px;
-  }
-
-  /* .container{
-     padding-right: 30px;
-  } */
-
+@media (max-width: 340px) {
   .card{
-    width: 370px;
+   width: 315px; 
   }
 }
-
