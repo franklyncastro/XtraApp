@@ -17,6 +17,7 @@
    
    .shadow {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #00000051;
    }
    
 .nameApp{
@@ -68,7 +69,7 @@
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-weight: 500;
+    font-weight: 800;
     color: #000;
     background-color: #fff;
     border: none;
@@ -90,6 +91,7 @@
   
   .btn:active {
     transform: translateY(-1px);
+    background-color: rgb(103, 14, 212);
   }
 
 
@@ -130,6 +132,7 @@
 
   .container_vista{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #00000051;
     padding: 15px;
     margin-top: 15px;
     border-radius: 15px;

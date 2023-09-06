@@ -55,7 +55,7 @@ const Form = () => {
           value={salario}
           name="salario"
           onChange={(e) => setSalario(e.target.value)}
-          required
+          inputMode="tel"
         />
         <input
           type="number"
@@ -64,6 +64,7 @@ const Form = () => {
           value={horasFeriadas}
           name="horasFeriadas"
           onChange={(e) => setHorasFeriadas(e.target.value)}
+          inputMode="tel"
         />
         <input
           type="number"
@@ -72,6 +73,7 @@ const Form = () => {
           value={horasNocturnas}
           name="horasNocturnas"
           onChange={(e) => setHorasNocturnas(e.target.value)}
+          inputMode="tel"
         />
         <input
           type="number"
@@ -80,6 +82,7 @@ const Form = () => {
           value={horasExtra}
           name="horasExtra"
           onChange={(e) => setHorasExtra(e.target.value)}
+          inputMode="tel"
         />
         <input
           type="button"
