@@ -113,7 +113,7 @@ const Form = () => {
             <input
               type="number"
               placeholder="Horas feriadas"
-              className="input"
+              className="input "
               disabled
               value={resultFeriadas}
             />
@@ -145,7 +145,7 @@ const Form = () => {
           <input
             type="number"
             placeholder="TOTAL"
-            className="input"
+            className="input iv"
             disabled
             value={total}
           />
