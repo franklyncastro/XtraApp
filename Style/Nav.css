@@ -5,3 +5,9 @@
     background-color: rgb(153, 207, 22);
     color: #fff;
 }
+
+@media (max-width: 300px) {
+    .navbar_container{
+        width: 100vh;
+    }
+}

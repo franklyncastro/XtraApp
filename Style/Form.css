@@ -162,3 +162,29 @@
     flex-direction: column;
     margin-top: 5px;
   }
+
+
+
+ 
+
+  @media (max-width: 450px) {
+    .container{
+       /* padding-right: 30px; */
+    }
+}
+
+@media (max-width: 400px) {
+
+  .titulo{
+    font-size: 25px;
+  }
+
+  /* .container{
+     padding-right: 30px;
+  } */
+
+  .card{
+    width: 370px;
+  }
+}
+
